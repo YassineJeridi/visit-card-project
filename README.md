@@ -22,7 +22,7 @@ Ensure you have a web browser installed (e.g., Chrome, Firefox).
 
 Installation
 Clone the repository:
-git clone https://github.com/yourusername/visit-card-website.git
+git clone https://github.com/YassineJeridi/visit-card-project.git
 
 
 cd visit-card-website
