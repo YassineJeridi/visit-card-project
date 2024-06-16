@@ -1,0 +1,136 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    border-radius: 15px;
+}
+/* Login Card */
+.login-card {
+    width: 450px;
+    background: rgba(255, 255, 255, .5);
+    padding: 4rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.login-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, .15);
+    transform: rotate(-6deg);
+    border-radius: 10px;
+    z-index: -1;
+}
+/* ---------- */
+
+/* Login Card Standard */
+.login-card-logo,
+.login-card-header,
+.login-card-footer {
+    text-align: center;
+}
+
+.login-card a:hover {
+    text-decoration: none !important;
+
+}
+/* ---------- */
+
+/* Login Card Header */
+.login-card-header {
+    margin-bottom: 2rem;
+}
+
+.login-card-header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.login-card-header h1+div {
+    font-size: calc(1rem * .8);
+    opacity: .8;
+}
+/* ---------- */
+
+/* Login Card Form */
+.login-card-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+
+
+
+.link
+{
+    background: black;
+    color: white; 
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1rem;
+    border-radius: 100px;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: background .5s;
+    text-align: center;
+    text-decoration:none;
+}
+
+.link2
+{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1rem;
+    border-radius: 100px;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: background .5s;
+    text-align: center;
+    text-decoration:none;
+}
+.login-card-header a:hover {
+    text-decoration: none !important;
+
+}
+.images
+{
+    height: 20px;
+    width: 20px;
+}
+
+
+/* ---------- */
+
+/* Login Card Social Buttons */
+
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    body {
+        padding: 2rem 0;
+    }
+
+    .login-card {
+        width: 280px;
+        padding: 2rem;
+    }
+
+}
+/* ---------- */
